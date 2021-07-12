@@ -1,0 +1,15 @@
+C:\Users\lemarell\source\repos\jsonCreate\bin\Debug\netcoreapp3.1\jsonCreate.exe
+C:\Users\lemarell\source\repos\jsonCreate\bin\Debug\netcoreapp3.1\jsonCreate.deps.json
+C:\Users\lemarell\source\repos\jsonCreate\bin\Debug\netcoreapp3.1\jsonCreate.runtimeconfig.json
+C:\Users\lemarell\source\repos\jsonCreate\bin\Debug\netcoreapp3.1\jsonCreate.runtimeconfig.dev.json
+C:\Users\lemarell\source\repos\jsonCreate\bin\Debug\netcoreapp3.1\jsonCreate.dll
+C:\Users\lemarell\source\repos\jsonCreate\bin\Debug\netcoreapp3.1\jsonCreate.pdb
+C:\Users\lemarell\source\repos\jsonCreate\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\lemarell\source\repos\jsonCreate\obj\Debug\netcoreapp3.1\jsonCreate.csproj.AssemblyReference.cache
+C:\Users\lemarell\source\repos\jsonCreate\obj\Debug\netcoreapp3.1\jsonCreate.AssemblyInfoInputs.cache
+C:\Users\lemarell\source\repos\jsonCreate\obj\Debug\netcoreapp3.1\jsonCreate.AssemblyInfo.cs
+C:\Users\lemarell\source\repos\jsonCreate\obj\Debug\netcoreapp3.1\jsonCreate.csproj.CoreCompileInputs.cache
+C:\Users\lemarell\source\repos\jsonCreate\obj\Debug\netcoreapp3.1\jsonCreate.csproj.CopyComplete
+C:\Users\lemarell\source\repos\jsonCreate\obj\Debug\netcoreapp3.1\jsonCreate.dll
+C:\Users\lemarell\source\repos\jsonCreate\obj\Debug\netcoreapp3.1\jsonCreate.pdb
+C:\Users\lemarell\source\repos\jsonCreate\obj\Debug\netcoreapp3.1\jsonCreate.genruntimeconfig.cache
