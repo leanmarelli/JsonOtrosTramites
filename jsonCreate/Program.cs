@@ -1,5 +1,7 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace jsonCreate
@@ -9,29 +11,28 @@ namespace jsonCreate
         
         static void Main(string[] args)
         {
-            OtrosTramites otram = new OtrosTramites();
-            
-            string JSONresult = JsonConvert.SerializeObject(otram);
-            
-            string path = @"C:\Users\lemarell\source\repos\jsonCreate\sfdc.cs"; 
+            List<OtrosTramites> items;
 
-            if (File.Exists(path))
+            using (StreamReader r = new StreamReader("file.json"))
             {
-                File.Delete(path);
-                using (var tw = new StreamWriter(path, true))
-                {
-                    tw.WriteLine(JSONresult.ToString());
-                    tw.Close();
-                }
+                string json = r.ReadToEnd();
+                items = JsonConvert.DeserializeObject<List<OtrosTramites>>(json);
+
+                Console.WriteLine("Listado completo: ");
+                Console.WriteLine(json);
+                Console.WriteLine("==================");
             }
-            else if(!File.Exists(path))
+
+            foreach (OtrosTramites item in items)
             {
-                using (var tw = new StreamWriter(path, true))
-                {
-                    tw.WriteLine(JSONresult.ToString());
-                    tw.Close();
-                }
+                Console.Write("item.sfdc_opcion_desc: ");
+                Console.Write(item.sfdc_opcion_desc);
+
+                Console.WriteLine("");
             }
+
+            Console.WriteLine("FIN");
+
         }
     }
 }

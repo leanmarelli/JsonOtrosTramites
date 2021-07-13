@@ -1,1 +1,0 @@
-{ "sfdc_opcion":1,"sfdc_origen":"CEX","sfdc_opcion_desc":"NoRecepcionFacturaOtroDomicilio","sfdc_gen_rol":"EDESUREXPRESS","sfdc_cod_medio":17,"caso_tipo":"TIP003","caso_motivo":"MOT003","caso_submotivo":"ATAR189","caso_estado":"ESTA003","caso_origen":"CAN015","caso_prioridad":1,"caso_adjuntos":"N","caso_buzon":"ARG_Canal_Digital"}

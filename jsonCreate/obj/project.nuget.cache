@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "k+OSqifc+jIXed0hSA34EZxH/6KGOzoIbOJncRjCmamGXSYpIiDO7i5bFrT+YjUaWchgmSu+38KZ3XO+Jtg5gg==",
+  "dgSpecHash": "WgYaWi/RLWLheYO3AOXATU+udCGbDSQbSpcV/1qn0KEpWEXw6yZtkra698OJm6PmnsLWjD+W8YPVcVnYqe9HrA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lemarell\\source\\repos\\jsonCreate\\jsonCreate.csproj",
+  "projectFilePath": "C:\\Users\\jomosque\\Documents\\JsonOtrosTramites\\jsonCreate\\jsonCreate.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\lemarell\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\jomosque\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
