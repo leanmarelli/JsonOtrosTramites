@@ -20,7 +20,6 @@ C:\Users\jomosque\Documents\JsonOtrosTramites\jsonCreate\bin\Debug\netcoreapp3.1
 C:\Users\jomosque\Documents\JsonOtrosTramites\jsonCreate\bin\Debug\netcoreapp3.1\jsonCreate.dll
 C:\Users\jomosque\Documents\JsonOtrosTramites\jsonCreate\bin\Debug\netcoreapp3.1\jsonCreate.pdb
 C:\Users\jomosque\Documents\JsonOtrosTramites\jsonCreate\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\jomosque\Documents\JsonOtrosTramites\jsonCreate\obj\Debug\netcoreapp3.1\jsonCreate.csprojAssemblyReference.cache
 C:\Users\jomosque\Documents\JsonOtrosTramites\jsonCreate\obj\Debug\netcoreapp3.1\jsonCreate.AssemblyInfoInputs.cache
 C:\Users\jomosque\Documents\JsonOtrosTramites\jsonCreate\obj\Debug\netcoreapp3.1\jsonCreate.AssemblyInfo.cs
 C:\Users\jomosque\Documents\JsonOtrosTramites\jsonCreate\obj\Debug\netcoreapp3.1\jsonCreate.csproj.CoreCompileInputs.cache
@@ -28,3 +27,4 @@ C:\Users\jomosque\Documents\JsonOtrosTramites\jsonCreate\obj\Debug\netcoreapp3.1
 C:\Users\jomosque\Documents\JsonOtrosTramites\jsonCreate\obj\Debug\netcoreapp3.1\jsonCreate.dll
 C:\Users\jomosque\Documents\JsonOtrosTramites\jsonCreate\obj\Debug\netcoreapp3.1\jsonCreate.pdb
 C:\Users\jomosque\Documents\JsonOtrosTramites\jsonCreate\obj\Debug\netcoreapp3.1\jsonCreate.genruntimeconfig.cache
+C:\Users\jomosque\Documents\JsonOtrosTramites\jsonCreate\obj\Debug\netcoreapp3.1\jsonCreate.csprojAssemblyReference.cache

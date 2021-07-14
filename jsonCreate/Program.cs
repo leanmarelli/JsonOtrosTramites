@@ -11,27 +11,24 @@ namespace jsonCreate
         
         static void Main(string[] args)
         {
-            List<OtrosTramites> items;
 
-            using (StreamReader r = new StreamReader("file.json"))
+
+            StreamReader r = new StreamReader("file.json");
+            string _json = r.ReadToEnd();
+
+            JObject json = JObject.Parse(_json);
+
+            int sdfc_opcion = 5;
+
+            // Query
+            //IEnumerable<JToken> pricyProducts = json.SelectTokens("$.GeneracionCasoSfdc[?(@.sfdc_origen == 'CEX')]");
+
+            IEnumerable<JToken> pricyProducts = json.SelectTokens(string.Format("$.GeneracionCasoSfdc[?(@.sfdc_opcion == {0})]", sdfc_opcion));
+
+            foreach (JToken item in pricyProducts)
             {
-                string json = r.ReadToEnd();
-                items = JsonConvert.DeserializeObject<List<OtrosTramites>>(json);
-
-                Console.WriteLine("Listado completo: ");
-                Console.WriteLine(json);
-                Console.WriteLine("==================");
+                Console.WriteLine(item);
             }
-
-            foreach (OtrosTramites item in items)
-            {
-                Console.Write("item.sfdc_opcion_desc: ");
-                Console.Write(item.sfdc_opcion_desc);
-
-                Console.WriteLine("");
-            }
-
-            Console.WriteLine("FIN");
 
         }
     }
